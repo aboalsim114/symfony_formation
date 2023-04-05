@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello RegisterController!
+{% endblock %}
+
+{% block body %}
+	<form>
+		<fieldset class="container mt-4">
+
+			<div class="form-group" bis_skin_checked="1">
+				<label for="exampleInputEmail1" class="form-label mt-4">Email address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+				<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+			</div>
+			<div class="form-group" bis_skin_checked="1">
+				<label for="exampleInputPassword1" class="form-label mt-4">Password</label>
+				<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			</div>
+			<input type="submit" class="btn btn-primary mt-4" name="submit" value="cree mon compte">
+
+
+		</fieldset>
+	</form>
+{% endblock %}
